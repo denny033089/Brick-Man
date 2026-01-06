@@ -1,8 +1,15 @@
 using UnityEngine;
 
-enum ExampleEnum
+/// <summary>
+/// 열거형(Enums) 모음 클래스
+/// </summary>
+public static class Enums
 {
-    ValueA,
-    ValueB,
-    ValueC
+    
+    enum ExampleEnum
+    {
+        ValueA,
+        ValueB,
+        ValueC
+    }
 }
